@@ -18,21 +18,24 @@ MOVF, MOVWF, MOVLW, ADDLW, ADDWF, SUBWF, SUBLW
 ### Example :
 Suppose you have the following assembly instructions in a file named program.txt:
 
+ORG 0x00
 MOVLW 0x0A
 MOVWF 0x20
 ADDLW 0x05
 ADDWF 0x20
+END
+
 
 ### Assembler Output :
 The assembler will generate the machine code based on the provided assembly instructions and save it to the output file in a readable format.
 
 Example output in output.txt:
 
-O000    7E0A
-O002    F120
-O004    5E05
-O006    E320
-O008
+0000		7E0A
+0002		F120
+0004		5E05
+0006		E320
+0008		
 
 ### Note :
 
