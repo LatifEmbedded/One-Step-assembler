@@ -19,7 +19,9 @@ MOVF, MOVWF, MOVLW, ADDLW, ADDWF, SUBWF, SUBLW
 Suppose you have the following assembly instructions in a file named program.txt:
 
 ORG 0x00
+
 MOVLW 0x0A
+
 MOVWF 0x20
 ADDLW 0x05
 ADDWF 0x20
