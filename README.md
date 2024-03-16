@@ -23,8 +23,11 @@ ORG 0x00
 MOVLW 0x0A
 
 MOVWF 0x20
+
 ADDLW 0x05
+
 ADDWF 0x20
+
 END
 
 
@@ -34,9 +37,13 @@ The assembler will generate the machine code based on the provided assembly inst
 Example output in output.txt:
 
 0000		7E0A
+
 0002		F120
+
 0004		5E05
+
 0006		E320
+
 0008		
 
 ### Note :
