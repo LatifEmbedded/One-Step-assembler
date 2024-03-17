@@ -53,3 +53,5 @@ Example output in output.txt:
 - If there are any errors, the assembler will display syntax errors and won't produce machine code.
 - Every assembly code must begin with ORG and terminate with END.
 - This code is under development. If you encounter any errors, bugs, or have suggestions for modifications, please feel free to contribute. Your feedback is valuable for improving this assembler.
+
+This project is only for personal learning.
